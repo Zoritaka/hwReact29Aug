@@ -1,17 +1,14 @@
-body{
-    background-color: rgb(104, 95, 179);
-}
-.container2{
+.container3{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.title2{
+.title3{
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(214, 207, 252);
 }
-.block2 {
+.block3 {
     display: flex;
     justify-content: space-around;
     padding: 10px;
@@ -21,13 +18,13 @@ body{
     border-radius: 10px;
     font-family: cursive;
     color: rgb(193, 182, 255);
-    width: 800px;
+    
 }
-.block2 div{
-    width: 70%;
+.block3 div{
+    margin-left: 20px;
 }
-.block2 img{
-    width: 200px;
-    height: 300px;
-    border: 2px dotted rgb(171, 153, 255);
+.block3 img{
+    width: 260px;
+    height: 260px;
+    border: 2px dotted whitesmoke;
 }

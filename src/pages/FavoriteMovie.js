@@ -2,10 +2,10 @@ import React from "react";
 import './css/blackMan.css';
 
 const FavoriteMovie = () => {
-    function Player({Title, Author, Actors, Date, description, srcImg}){
+    function Player({TitleMain, Title, Author, Actors, Date, description, srcImg}){
         return (
             <div className="container2">
-                <h1 className="title2">My Favorite Movie</h1>
+                <h1 className="title2">{TitleMain}</h1>
                 <div className="block2">
                     <img src={require("./photo/blackMan.jpg")}></img>
                     <div>
@@ -22,6 +22,7 @@ const FavoriteMovie = () => {
 
     return (
         <Player
+            TitleMain={"My Favorite Movie"}
             Title={"Люди в черном (Men in Black)"}
             Author={"Фильм основан на комиксах Лоуэлла Канна и режиссирован Барри Зонненфельдом."}
             Actors={"Томми Ли Джонс, Уилл Смит, Линда Фиорентино"}
