@@ -1,5 +1,5 @@
 body{
-    background-color: antiquewhite;
+    background-color: rgb(201, 175, 141);
 }
 .container1{
     display: flex;
@@ -9,16 +9,18 @@ body{
 .title1{
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(214, 207, 252);
 }
 .block1 {
     display: flex;
     justify-content: space-around;
     padding: 10px;
     margin: 10px;
-    background-color: rgb(253, 230, 200);
+    background-color: rgb(77, 82, 138);
     border: 2px dotted black;
     border-radius: 10px;
     font-family: cursive;
+    color: rgb(193, 182, 255);
 }
 .block1 div{
     width: 70%;

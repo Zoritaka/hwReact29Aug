@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css';
+import './css/me.css';
 
 const Biography = () => {
     function Player({FIO, tel, email, city, experience, skills, srcImg}){
